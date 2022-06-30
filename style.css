@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: #043264;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    margin: 1ch;
+}
+
+.list {
+    /* display: inline-block; */
+    width: 300px;
+    min-height: 300px;
+    background-color: #043264;
+    white-space: pre-wrap;
+    background-image: none;
+    padding: 4ch;
+    outline: 1px solid #fff;
+    outline-offset: 2ch;
+    border-radius: 30px;
+}
+
+.list._active {
+    background-image: url(/NyanCat.gif);
+}
